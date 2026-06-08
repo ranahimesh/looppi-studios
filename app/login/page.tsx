@@ -31,7 +31,7 @@ export default function LoginPage() {
       }
 
       alert("Login Successful!");
-      window.location.href = "/dashboard";
+      window.location.href = "https://looppi-studios.vercel.app";
     } catch (error: any) {
       alert(error.message);
     } finally {
